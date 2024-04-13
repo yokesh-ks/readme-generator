@@ -1,0 +1,16 @@
+{
+  "name": "@tool-empire/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "clsx": "2.0.0",
+    "tailwind-merge": "1.14.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
