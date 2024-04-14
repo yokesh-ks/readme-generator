@@ -1,9 +1,8 @@
 'use client'
 
+import { TooltipProvider } from '@camped-ui/tooltip'
 import { ThemeProvider as NextThemesProvider } from 'next-themes'
 import { type ThemeProviderProps } from 'next-themes/dist/types'
-
-import { TooltipProvider } from '@tool-empire/components'
 
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   return (

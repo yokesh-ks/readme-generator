@@ -1,3 +1,6 @@
+import { Card } from '@camped-ui/card'
+import { Input } from '@camped-ui/input'
+import { Tabs, TabsList, TabsTrigger } from '@camped-ui/tabs'
 import {
   DndContext,
   KeyboardSensor,
@@ -15,9 +18,6 @@ import {
 } from '@dnd-kit/sortable'
 import { useEffect, useState } from 'react'
 
-import { Card } from '@tool-empire/components'
-import { Input } from '@tool-empire/components'
-import { Tabs, TabsList, TabsTrigger } from '@tool-empire/components'
 import { Icon } from '@tool-empire/icon'
 
 import useLocalStorage from '@/hooks/useLocalStorage'

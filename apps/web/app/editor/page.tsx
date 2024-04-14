@@ -59,33 +59,28 @@ export default function Editor(props) {
   }, [selectedSectionSlugs])
 
   return (
-    <div
-      className='w-full h-screen overflow-hidden px-6'
-      style={{ paddingTop: 52 }}
-    >
-      <div className='flex my-3 gap-3'>
-        <SectionsColumn
-          selectedSectionSlugs={selectedSectionSlugs}
-          setSelectedSectionSlugs={setSelectedSectionSlugs}
-          sectionSlugs={sectionSlugs}
-          setSectionSlugs={setSectionSlugs}
-          setFocusedSectionSlug={setFocusedSectionSlug}
-          focusedSectionSlug={focusedSectionSlug}
-          templates={templates}
-          originalTemplate={sectionTemplates}
-          setTemplates={setTemplates}
-          getTemplate={getTemplate}
-          darkMode={darkMode}
-        />
+    <div className='w-full h-full overflow-hidden flex gap-3 pt-2'>
+      <SectionsColumn
+        selectedSectionSlugs={selectedSectionSlugs}
+        setSelectedSectionSlugs={setSelectedSectionSlugs}
+        sectionSlugs={sectionSlugs}
+        setSectionSlugs={setSectionSlugs}
+        setFocusedSectionSlug={setFocusedSectionSlug}
+        focusedSectionSlug={focusedSectionSlug}
+        templates={templates}
+        originalTemplate={sectionTemplates}
+        setTemplates={setTemplates}
+        getTemplate={getTemplate}
+        darkMode={darkMode}
+      />
 
-        <EditPreviewContainer
-          templates={templates}
-          setTemplates={setTemplates}
-          getTemplate={getTemplate}
-          focusedSectionSlug={focusedSectionSlug}
-          selectedSectionSlugs={selectedSectionSlugs}
-        />
-      </div>
+      <EditPreviewContainer
+        templates={templates}
+        setTemplates={setTemplates}
+        getTemplate={getTemplate}
+        focusedSectionSlug={focusedSectionSlug}
+        selectedSectionSlugs={selectedSectionSlugs}
+      />
     </div>
   )
 }

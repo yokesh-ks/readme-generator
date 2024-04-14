@@ -1,6 +1,8 @@
 'use client'
 
-import { Button, Card } from '@tool-empire/components'
+import { Button } from '@camped-ui/button'
+import { Card } from '@camped-ui/card'
+
 import { Icon } from '@tool-empire/icon'
 
 export default function NotFound() {

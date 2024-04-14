@@ -1,8 +1,10 @@
-"use client"
+'use client'
 
+import { buttonVariants } from '@camped-ui/button'
+import { Input } from '@camped-ui/input'
+import { Textarea } from '@camped-ui/textarea'
 import React from 'react'
 
-import { Input, Textarea, buttonVariants } from '@tool-empire/components'
 import { Icon } from '@tool-empire/icon'
 import { cn } from '@tool-empire/utils'
 
@@ -45,8 +47,6 @@ export default function SignIn() {
 
   return (
     <>
-      <Header />
-
       <div className='flex flex-col md:flex-row w-full'>
         <div className='w-full min-h-[60vh]  flex flex-col px-4 pt-2 pb-8 md:px-0 md:py-2 justify-center items-center'>
           <div className='w-full items-center flex flex-col  mt-[20px]'>

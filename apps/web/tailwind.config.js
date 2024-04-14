@@ -4,6 +4,7 @@ const { fontFamily } = require('tailwindcss/defaultTheme')
 module.exports = {
   darkMode: ['class'],
   content: [
+    'app/**/*.{ts,tsx}',
     'pages/**/*.{ts,tsx}',
     'pages/**/*.{js,jsx}',
     'src/components/**/*.{ts,tsx}',
@@ -11,6 +12,7 @@ module.exports = {
     'src/container/**/*.{ts,tsx}',
     'src/container/**/*.{js,jsx}',
     '../../libs/components/**/*.{ts,tsx}',
+    '../../node_modules/@camped-ui/**/*.{js,ts,jsx,tsx}',
     '../../libs/icon/**/*.{ts,tsx}',
   ],
   theme: {

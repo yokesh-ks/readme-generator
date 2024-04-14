@@ -1,6 +1,4 @@
-import { Fragment, useRef, useState } from 'react'
-
-import { Button } from '@tool-empire/components'
+import { Button } from '@camped-ui/button'
 import {
   Dialog,
   DialogContent,
@@ -8,9 +6,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@tool-empire/components'
-import { Input } from '@tool-empire/components'
-import { Label } from '@tool-empire/components'
+} from '@camped-ui/dialog'
+import { Input } from '@camped-ui/input'
+import { useRef, useState } from 'react'
+
 import { Icon } from '@tool-empire/icon'
 
 import useLocalStorage from '@/hooks/useLocalStorage'
