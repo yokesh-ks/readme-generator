@@ -2,8 +2,7 @@
 
 import { Button } from '@camped-ui/button'
 import { Card } from '@camped-ui/card'
-
-import { Icon } from '@tool-empire/icon'
+import { Icon } from '@readme/icon'
 
 export default function NotFound() {
   return (

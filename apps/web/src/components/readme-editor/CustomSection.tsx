@@ -8,9 +8,8 @@ import {
   DialogTrigger,
 } from '@camped-ui/dialog'
 import { Input } from '@camped-ui/input'
+import { Icon } from '@readme/icon'
 import { useRef, useState } from 'react'
-
-import { Icon } from '@tool-empire/icon'
 
 import useLocalStorage from '@/hooks/useLocalStorage'
 

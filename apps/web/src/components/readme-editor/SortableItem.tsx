@@ -1,8 +1,7 @@
 import { Card } from '@camped-ui/card'
 import { useSortable } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
-
-import { Icon } from '@tool-empire/icon'
+import { Icon } from '@readme/icon'
 
 export function SortableItem(props) {
   const { attributes, listeners, setNodeRef, transform, transition } =

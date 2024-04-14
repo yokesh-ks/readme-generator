@@ -36,10 +36,12 @@
     "@camped-ui/card": "^2.1.0",
     "@camped-ui/dialog": "^2.1.2",
     "@camped-ui/input": "^2.1.0",
+    "@camped-ui/label": "^2.1.0",
     "@camped-ui/lib": "^2.0.2",
     "@camped-ui/tabs": "^2.1.0",
     "@camped-ui/textarea": "^2.1.0",
     "@camped-ui/tooltip": "^2.1.0",
-    "date-fns": "^2.30.0"
+    "date-fns": "^2.30.0",
+    "next-auth": "^4.24.7"
   }
 }

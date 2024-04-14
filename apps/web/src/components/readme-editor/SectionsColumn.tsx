@@ -16,9 +16,8 @@ import {
   arrayMove,
   sortableKeyboardCoordinates,
 } from '@dnd-kit/sortable'
+import { Icon } from '@readme/icon'
 import { useEffect, useState } from 'react'
-
-import { Icon } from '@tool-empire/icon'
 
 import useLocalStorage from '@/hooks/useLocalStorage'
 
